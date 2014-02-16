@@ -1,0 +1,42 @@
+//Brian Sullivan
+//  main.c
+//  Chapter 4 problem 1 Positive,negitive or zero
+//this code should tell the user if the number entered was positive, negitive, or zero
+//  Created by Programming on 2/15/14.
+//  Copyright (c) 2014 Brian Sullivan. All rights reserved.
+//
+
+#include <stdio.h>
+#include<math.h>
+int main(){
+    int num1 = 0;
+    printf(" enter an integer of any value");
+    scanf(" %d", &num1);
+    if(num1 == 0){
+        printf("number entered is 0");} // compiler error "Expected ';' after expression??
+    else if(num1 > 0); { // (error1)Expected expression (error2) if statment has empty body??
+        printf("number entered is positive");} //Expected ';' after expression??
+    else(num1 < 0);{ //(error 1)Expected ';' after expression (error #2) Expression result unsued(error3)Expected expression??
+        printf("number entered is negitive");}
+    }
+
+    
+    
+
+
+/*
+ #include <stdio.h>
+ #include<math.h>
+ int main(){
+ int num1 = 0;
+ printf(" enter an integer of any value");
+ scanf(" %d", &num1);
+ if(num1 == 0){
+ printf("number entered is 0"); // compiler error "Expected ';' after expression??????
+ else if(num1 > 0);  //Expected expression
+ printf("number entered is positive");
+ else(num1<0); //Expected expression
+ printf("number entered is negitive");
+ }
+*/
+    }
